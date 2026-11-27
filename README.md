@@ -105,7 +105,7 @@ It's a working computer and it also has my whole heart on it.
 ## run it yourself
 
 ```bash
-git clone https://github.com/looprotate/lx32.git
+git clone https://github.com/0f31/lx32.git
 cd lx32
 make setup
 ```
