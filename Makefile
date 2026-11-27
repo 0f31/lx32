@@ -216,7 +216,7 @@ formal-all: formal-sva formal-lec ## Run full formal hardware suite (SVA + LEC)
 # ======================
 LLVM_DIR     ?= $(CURDIR)/.llvm
 BACKEND_SRC  := $(CURDIR)/tools/lx32_backend
-LLVM_REPO    := https://github.com/looprotate/llvm-project-lx32.git
+LLVM_REPO    := https://github.com/0f31/llvm-project-lx32.git
 NPROC        := $(shell nproc 2>/dev/null || sysctl -n hw.logicalcpu)
 LLD_EXISTS   := $(shell which lld 2>/dev/null)
 LLVM_BRANCH ?= main
